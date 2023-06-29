@@ -1,24 +1,26 @@
 {
     "id": "5ECC839C",
-    "path": "~/OCUC/catalogo_book/index.Rmd",
+    "path": "~/OCUC/PROYECTOS/catalogo_book/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "2942792837",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1687988034275.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 4,
     "properties": {
         "source_window_id": "",
-        "Source": "Source"
+        "Source": "Source",
+        "cursorPosition": "59,0",
+        "scrollLine": "43"
     },
     "folds": "",
-    "lastKnownWriteTime": 1687987871,
+    "lastKnownWriteTime": 1688071569,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1687987871,
+    "last_content_update": 1688071569715,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -3,17 +3,26 @@ title: "A Minimal Book Example"
 author: "John Doe"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
+output: bookdown::bs4_book
+documentclass: krantz
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
 # cover-image: path to the social sharing image like images/cover.jpg
+graphics: yes
 description: |
   This is a minimal example of using the bookdown package to write a book.
   The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: "emmaleah-shp/catalogo_book"
+url: catalogodatamet.info
 ---
+```{r index-1, echo=FALSE}
+# is_on_ghactions = identical(Sys.getenv("GITHUB_ACTIONS"), "true")
+is_online = curl::has_internet()
+is_html = knitr::is_html_output()
+```
+
 
 # About
 
@@ -53,8 +62,8 @@ bookdown::serve_book()
 
 
 ```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+# # automatically create a bib database for R packages
+# knitr::write_bib(c(
+#   .packages(), 'bookdown', 'knitr', 'rmarkdown'
+# ), 'packages.bib')
 ```

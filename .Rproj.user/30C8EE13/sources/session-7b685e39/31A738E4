@@ -3,17 +3,17 @@
     "path": "~/OCUC/PROYECTOS/catalogo_book/htmlplantilla.Rmd",
     "project_path": "htmlplantilla.Rmd",
     "type": "r_markdown",
-    "hash": "2073574887",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1687988625746.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 1,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "21,49",
-        "scrollLine": "8"
+        "cursorPosition": "119,11",
+        "scrollLine": "115"
     },
     "folds": "",
     "lastKnownWriteTime": 1687986670,

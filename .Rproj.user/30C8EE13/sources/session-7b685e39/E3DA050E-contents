@@ -8,7 +8,6 @@ rmd_files:
     - "04-pla.Rmd"
     - "05-rie.Rmd"
     - "06-seg.Rmd"
-    - "references.Rmd"
 new_session: yes
 before_chapter_script: ["R/before_script.R"]
 delete_merged_file: true
