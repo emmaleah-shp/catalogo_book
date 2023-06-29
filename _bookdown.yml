@@ -1,0 +1,18 @@
+book_filename: catalogo_book
+rmd_files: 
+    - "index.Rmd"
+    - "introduction.Rmd"
+    - "01-bas.Rmd"
+    - "02-med.Rmd"
+    - "03-mov.Rmd"
+    - "04-pla.Rmd"
+    - "05-rie.Rmd"
+    - "06-seg.Rmd"
+    - "references.Rmd"
+new_session: yes
+before_chapter_script: ["R/before_script.R"]
+delete_merged_file: true
+language:
+  ui:
+    edit: "Edit"
+    chapter_name: "Capa "
