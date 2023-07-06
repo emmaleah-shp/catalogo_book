@@ -290,6 +290,7 @@
         }
     ],
     "project_biblios": [
+        "book.bib",
         "packages.bib"
     ]
 }

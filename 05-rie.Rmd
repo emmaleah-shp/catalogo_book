@@ -1,6 +1,12 @@
-# Blocks
+--- 
+title: "Riesgos y Emergencias"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+---
 
-## Equations
+# Riesgos y Emergencias
+
+## Equations {-}
 
 Here is an equation.
 
@@ -12,7 +18,7 @@ Here is an equation.
 You may refer to using `\@ref(eq:binom)`, like see Equation \@ref(eq:binom).
 
 
-## Theorems and proofs
+## Theorems and proofs {-}
 
 Labeled theorems can be referenced in text using `\@ref(thm:tri)`, for example, check out this smart theorem \@ref(thm:tri).
 
@@ -24,7 +30,7 @@ $$a^2 + b^2 = c^2$$
 
 Read more here <https://bookdown.org/yihui/bookdown/markdown-extensions-by-bookdown.html>.
 
-## Callout blocks
+## Callout blocks {-}
 
 
 The R Markdown Cookbook provides more help on how to use custom blocks to design your own callouts: https://bookdown.org/yihui/rmarkdown-cookbook/custom-blocks.html

@@ -1,8 +1,14 @@
-# Cross-references {#cross}
+--- 
+title: "Medio Ambiente"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+---
+
+# Medio Ambiente
 
 Cross-references make it easier for your readers to find and link to elements in your book.
 
-## Chapters and sub-chapters
+## Chapters and sub-chapters {-}
 
 There are two steps to cross-reference any heading:
 
@@ -10,10 +16,9 @@ There are two steps to cross-reference any heading:
     - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
     - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
 
-1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
-    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
+1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter
 
-## Captioned figures and tables
+## Captioned figures and tables {-}
 
 Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
 

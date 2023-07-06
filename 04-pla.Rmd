@@ -1,12 +1,18 @@
-# Footnotes and citations 
+--- 
+title: "Planificación"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+---
 
-## Footnotes
+# Planificación
+
+## Footnotes {-}
 
 Footnotes are put inside the square brackets after a caret `^[]`. Like this one ^[This is a footnote.]. 
 
-## Citations
+## Citations {-}
 
-Reference items in your bibliography file(s) using `@key`.
+Reference items in your bibliography file(s).
 
 For example, we are using the **bookdown** package [@R-bookdown] (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and **knitr** [@xie2015] (this citation was added manually in an external file book.bib). 
 Note that the `.bib` files need to be listed in the index.Rmd with the YAML `bibliography` key.

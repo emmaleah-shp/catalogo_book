@@ -66,22 +66,6 @@ ft <- theme_booktabs(ft, bold_header = TRUE) %>%
 autofit(ft)
 ```
 
-##Diccionario:
-
-**rowname:** Nombre del columna
-
-**tipo:** Forma de el variable
-
-**vacios:** Número de celdas vacías en la columna
-
-**whitespace:** Número de celdas con solo espacios blancos en la columna
-
-**n_unico:** Número de celdas distintas en la columna
-
-**pc_completo:** Porcentaje de celdas vacías en la columna
-
-**pc_repetido:** Porcentaje de repeticiones
-
 ```{r plotting1, echo = FALSE, include=FALSE}
 library(sf)
 library(ggplot2)

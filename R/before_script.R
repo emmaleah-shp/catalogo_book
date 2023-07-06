@@ -18,7 +18,7 @@ opts_chunk$set(
         out.width = "100%",
         dpi = 105 # this creates 2*105 dpi at 6in, which is 300 dpi at 4.2in, see the  EmilHvitfeldt/smltar repo
 )
-# https://github.com/EmilHvitfeldt/smltar/issues/114
+
 hook_output = knit_hooks$get('output')
 knit_hooks$set(output = function(x, options) {
         # this hook is used only when the linewidth option is not NULL
@@ -46,7 +46,7 @@ pacman::p_load(tidyselect, tidyverse, dplyr, glue, knitr, stringr, magrittr,
 # arc.check_product()
 options(scipen=999)
 
-
+library(dplyr)
 #whitespace
 wsp1<-function(x){
         num<-str_count(x, "\\s+") - str_count(x, "\\w")

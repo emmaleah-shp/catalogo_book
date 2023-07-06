@@ -5,7 +5,7 @@ pacman::p_load(tidyselect, tidyverse, dplyr, glue, knitr, stringr, magrittr,
 library(arcgisbinding)
 arc.check_product()
 options(scipen=999)
-# 
+# before_chapter_script: ["R/before_script.R"]
 # 
 # #whitespace
 # wsp1<-function(x){

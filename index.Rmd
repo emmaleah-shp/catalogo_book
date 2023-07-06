@@ -1,21 +1,16 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Diagnóstico Book"
+author: "OCUC"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-output: bookdown::bs4_book
-documentclass: krantz
-monofont: "Source Code Pro"
-monofontoptions: "Scale=0.7"
-# cover-image: path to the social sharing image like images/cover.jpg
-graphics: yes
-description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
-link-citations: yes
-github-repo: "emmaleah-shp/catalogo_book"
-url: catalogodatamet.info
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: no
+github-repo: emmaleah-shp/catalogo_book
+description: "Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma." 
+cover-image: "images/icondatame.png"
+url: https://catalogodatamet.info
 ---
 ```{r index-1, echo=FALSE}
 # is_on_ghactions = identical(Sys.getenv("GITHUB_ACTIONS"), "true")
@@ -23,47 +18,21 @@ is_online = curl::has_internet()
 is_html = knitr::is_html_output()
 ```
 
+# Catálogo DataMet {-}
 
-# About
+## Descripción {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma.
 
-## Usage 
+Este catálogo se construyó a partir de un marco normativo internacional y de gobernabilidad de los datos, tomando como punto de partida el marco institucional nacional. Así, la elaboración de un catastro de información espacial y no espacial, homologado a través de una serie de mecanismos (como por ejemplo los escenarios creados conjuntamente con el Gobierno Regional para definir la utilidad de los datos), permitió la consolidación de un catálogo de datos interoperables. 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+El desarrollo de un Catálogo de Datos se basa en estándares que permitan catastrar los datos espaciales y no espaciales, como también, conocer sus alcances y el estado de la información, de forma de que estos puedan ser consultados por distintas instituciones y actores, y así, asegurar su interoperabilidad. 
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+Por medio de la **`Norma ISO 19.110`** se define una metodología para catalogar Objetos Geográficos. Los elementos que componen un catálogo de features presentan una organización que conlleva características de orden y jerarquía, como se presenta en la siguiente Figura. 
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
-
-## Render book
-
-You can render the HTML version of this example book without changing anything:
-
-1. Find the **Build** pane in the RStudio IDE, and
-
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
-
-Or build the book from the R console:
+### Render book {-}
 
 ```{r, eval=FALSE}
-bookdown::render_book()
-```
-
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
-
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
-
-```{r eval=FALSE}
-bookdown::serve_book()
-```
-
-
-```{r include=FALSE}
-# # automatically create a bib database for R packages
-# knitr::write_bib(c(
-#   .packages(), 'bookdown', 'knitr', 'rmarkdown'
-# ), 'packages.bib')
+# bookdown::render_book()
+# bookdown::serve_book()
 ```
