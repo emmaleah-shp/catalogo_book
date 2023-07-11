@@ -1,0 +1,4 @@
+site: bookdown::bookdown_site
+output: 
+  bookdown::bs4_book: 
+    lib_dir: "~/OCUC/PROYECTOS/catalogo_book/_book/libs"

@@ -1,10 +1,40 @@
 --- 
 title: "Riesgos y Emergencias"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: bookdown::bs4_book
 ---
 
-# Riesgos y Emergencias
+# Ámbito Riesgos y Emergencias
+
+## Instituciones participantes {-}
+Descripción acá...
+
+*Grupo Amenaza*
+Gerencia Protección Contra Incendios Forestales - Corporación Nacional Forestal 
+Sistema Nacional de Información Territorial – Ministerio de Bienes Raíces  
+División de Cambio Climático - Ministerio de Medio Ambiente 
+Servicio Nacional de Geología y Minería - Ministerio de Minería 
+Subsecretaría Regional Ministerial  - Ministerio de Salud 
+
+*Grupo Exposición y Vulnerabilidad*
+Gerencia Protección Contra Incendios Forestales - Corporación Nacional Forestal 
+Servicio Nacional de Geología y Minería - Ministerio de Minería  
+Aguas Andinas 
+Superintendencia de Electricidad y Combustible 
+Instituto Nacional de Estadísticas  
+Consejo Nacional de Desarrollo Urbano 
+Registro Civil 
+Subsecretaría Regional Ministerial de Salud – Ministerio de Salud  
+Ente Nacional para la Energía Eléctrica  
+División de Cambio Climático - Ministerio del Medio Ambiente  
+
+*Grupo Resiliencia*
+Corporación Nacional Forestal 
+Subsecretaría Regional Ministerial - Ministerio del Medio Ambiente 
+Municipalidades 
+Oficina Nacional de Emergencia – Ministerio del Interior y Seguridad Pública 
+
+
 
 ## Equations {-}
 

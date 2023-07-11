@@ -1,10 +1,35 @@
 --- 
 title: "Planificación"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: bookdown::bs4_book
 ---
 
-# Planificación
+# Ámbito Planificación
+Descripción acá...
+
+## Instituciones participantes {-}
+*Grupo Instrumentos de Planificación Territorial*
+Subsecretaría Regional Ministerial - Ministerio de Vivienda y Urbanismo 
+Centro de Estudio de Ciudad y Territorio – Ministerio de Vivienda y Urbanismo 
+
+*Grupo Usos del Territorio*
+Instituto Nacional de Estadísticas 
+Servicio Nacional de Geología y Minería - Ministerio de Minería 
+Subsecretaría de Desarrollo Regional y Administrativo – Ministerio del Interior y Seguridad Pública 
+Centro de Estudio de Ciudad y Territorio – Ministerio de Vivienda y Urbanismo 
+Servicio de Impuestos Internos 
+Municipalidades 
+Centro de Información de Recursos Naturales – Ministerio de Agricultura 
+Instituto Forestal – Ministerio de Agricultura 
+Secretaría Regional Ministerial – Ministerio de Salud 
+
+*Grupo Habitabilidad*
+División Técnica de Estudio y fomento Habitacional - Ministerio de Vivienda y Urbanismo 
+Consejo Nacional de Desarrollo Urbano 
+Subsecretaria de Desarrollo Regional – Ministerio del Interior y Seguridad Pública 
+Superintendencia de Electricidad y Combustible  
+Centro de Estudio de Ciudad y Territorio – Ministerio de Vivienda y Urbanismo 
+Instituto Nacional de Estadísticas 
 
 ## Footnotes {-}
 

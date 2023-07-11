@@ -1,12 +1,33 @@
 --- 
 title: "Medio Ambiente"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: bookdown::bs4_book
 ---
 
-# Medio Ambiente
+# Ámbito Medio Ambiente
+Descripción acá...
 
-Cross-references make it easier for your readers to find and link to elements in your book.
+## Instituciones participantes {-}
+*Grupo Biodiversidad y Ecosistemas*
+Dirección General de Aguas – Ministerio de Obras Públicas 
+División de Información y Economía Ambiental – Ministerio del Medio Ambiente 
+Centro de Ciencia del Clima y la Resiliencia – Universidad de Chile 
+Subsecretaría de Desarrollo Regional y Administrativo – Ministerio del Interior y Seguridad Pública 
+Sistema Nacional de Información Ambiental – Ministerio del Medio Ambiente 
+
+*Grupo Contaminación*
+División de Información y Economía Ambiental – Ministerio de Medio Ambiente 
+División de Políticas Públicas Saludables y Promoción - Ministerio de Salud 
+Consejo Nacional de Desarrollo Urbano 
+
+*Grupo Institucionalidad y Monitoreo Ambiental*
+División de Calidad del Aire – Ministerio del Medio Ambiente 
+Dirección General de Aguas – Ministerio de Obras Públicas 
+División de Educación Ambiental y Participación Ciudadana – Ministerio del Medio Ambiente 
+Servicio de Evaluación Ambiental – Ministerio del Medio Ambiente 
+Subsecretaría de Desarrollo Regional y Administrativo – Ministerio del Interior y Seguridad Pública 
+Superintendencia de Servicios Sanitarios  
+
 
 ## Chapters and sub-chapters {-}
 

@@ -1,14 +1,13 @@
 book_filename: "catalogo_book"
-rmd_files: 
-  - "index.Rmd"
-  - "01-bas.Rmd"
-  - "02-med.Rmd"
-  - "03-mov.Rmd"
-  - "04-pla.Rmd"
-  - "05-rie.Rmd"
-  - "06-seg.Rmd"
-  - "glosario.Rmd"
-new_session: yes
+#   - "index.Rmd"
+#   - "markdocs/01-bas.Rmd"
+#   - "markdocs/02-med.Rmd"
+#   - "markdocs/03-mov.Rmd"
+#   - "markdocs/04-pla.Rmd"
+#   - "markdocs/05-rie.Rmd"
+#   - "markdocs/06-seg.Rmd"
+#   - "markdocs/glosario.Rmd"
+new_session: true
 before_chapter_script: ["R/before_script.R"]
 delete_merged_file: true
 language:

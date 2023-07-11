@@ -1,22 +1,19 @@
 --- 
-title: "Diagnóstico Book"
-author: "OCUC"
-date: "2023-07-05"
+title: "Catálogo DataMet"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: bookdown::bs4_book
 documentclass: book
 biblio-style: apalike
 link-citations: no
 github-repo: emmaleah-shp/catalogo_book
 description: "Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma." 
 cover-image: "images/icondatame.png"
+favicon: "images/logogore.png"
 url: https://catalogodatamet.info
 ---
 
 
-# Catálogo DataMet {-}
-
-## Descripción {-}
+# Descripción {-}
 
 Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma.
 
@@ -26,7 +23,7 @@ El desarrollo de un Catálogo de Datos se basa en estándares que permitan catas
 
 Por medio de la **`Norma ISO 19.110`** se define una metodología para catalogar Objetos Geográficos. Los elementos que componen un catálogo de features presentan una organización que conlleva características de orden y jerarquía, como se presenta en la siguiente Figura. 
 
-### Render book {-}
+**Render book**
 
 
 ```r

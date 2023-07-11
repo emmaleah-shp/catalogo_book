@@ -1,7 +1,7 @@
 --- 
 title: "Catálogo DataMet"
 site: bookdown::bookdown_site
-output: bookdown::gitbook
+output: bookdown::bs4_book
 ---
 # Glosario {-}
 

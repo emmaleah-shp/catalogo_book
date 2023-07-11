@@ -1,294 +1,111 @@
 <!DOCTYPE html>
-<html lang="" xml:lang="">
+<html lang="en">
 <head>
-
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Catálogo DataMet</title>
-  <meta name="description" content="Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma." />
-  <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
-
-  <meta property="og:title" content="Catálogo DataMet" />
-  <meta property="og:type" content="book" />
-  <meta property="og:image" content="https://catalogodatamet.info/images/icondatame.png" />
-  <meta property="og:description" content="Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma." />
-  <meta name="github-repo" content="emmaleah-shp/catalogo_book" />
-
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Catálogo DataMet" />
-  
-  <meta name="twitter:description" content="Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma." />
-  <meta name="twitter:image" content="https://catalogodatamet.info/images/icondatame.png" />
-
-<meta name="author" content="OCUC" />
-
-
-<meta name="date" content="2023-07-05" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  
-  
-
-<link rel="next" href="información-base.html"/>
-<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
-<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
-<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
-
-
-
-
-
-
-
-<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
-<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
-
-
-<style type="text/css">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
-</style>
-
-<style type="text/css">
-  
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-</style>
-
-<link rel="stylesheet" href="style.css" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Descripción | Catálogo DataMet</title>
+<meta name="description" content="Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma.">
+<meta name="generator" content="bookdown 0.34 with bs4_book()">
+<meta property="og:title" content="Descripción | Catálogo DataMet">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://catalogodatamet.info">
+<meta property="og:image" content="https://catalogodatamet.info/images/icondatame.png">
+<meta property="og:description" content="Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Descripción | Catálogo DataMet">
+<meta name="twitter:description" content="Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma.">
+<meta name="twitter:image" content="https://catalogodatamet.info/images/icondatame.png">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="_book/libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="_book/libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="_book/libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="_book/libs/Lato-0.4.6/font.css" rel="stylesheet">
+<link href="_book/libs/Roboto_Mono-0.4.6/font.css" rel="stylesheet">
+<link href="_book/libs/Montserrat-0.4.6/font.css" rel="stylesheet">
+<script src="_book/libs/bs3compat-0.5.0/transition.js"></script><script src="_book/libs/bs3compat-0.5.0/tabs.js"></script><script src="_book/libs/bs3compat-0.5.0/bs3compat.js"></script><link href="_book/libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="_book/libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+<link rel="stylesheet" href="style/style.css">
 </head>
+<body data-spy="scroll" data-target="#toc">
 
-<body>
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
 
-
-
-  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
-
-    <div class="book-summary">
-      <nav role="navigation">
-
-<ul class="summary">
-<li><a href="./">Catálogo</a></li>
-
-<li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Catálogo DataMet</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#descripción"><i class="fa fa-check"></i>Descripción</a>
-<ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#render-book"><i class="fa fa-check"></i>Render book</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="1" data-path="información-base.html"><a href="información-base.html"><i class="fa fa-check"></i><b>1</b> Información Base</a>
-<ul>
-<li class="chapter" data-level="" data-path="información-base.html"><a href="información-base.html#instituciones-participantes"><i class="fa fa-check"></i>Instituciones participantes</a>
-<ul>
-<li class="chapter" data-level="1.0.1" data-path="información-base.html"><a href="información-base.html#ámbito-información-base"><i class="fa fa-check"></i><b>1.0.1</b> Ámbito: Información Base</a></li>
-<li class="chapter" data-level="1.0.2" data-path="información-base.html"><a href="información-base.html#ámbito-seguridad"><i class="fa fa-check"></i><b>1.0.2</b> Ámbito Seguridad</a></li>
-<li class="chapter" data-level="1.0.3" data-path="información-base.html"><a href="información-base.html#ámbito-riesgo"><i class="fa fa-check"></i><b>1.0.3</b> Ámbito Riesgo</a></li>
-<li class="chapter" data-level="1.0.4" data-path="información-base.html"><a href="información-base.html#ámbito-movilidad"><i class="fa fa-check"></i><b>1.0.4</b> Ámbito Movilidad</a></li>
-<li class="chapter" data-level="1.0.5" data-path="información-base.html"><a href="información-base.html#ámbito-medio-ambiente"><i class="fa fa-check"></i><b>1.0.5</b> Ámbito Medio Ambiente</a></li>
-<li class="chapter" data-level="1.0.6" data-path="información-base.html"><a href="información-base.html#ámbito-planificación"><i class="fa fa-check"></i><b>1.0.6</b> Ámbito Planificación</a></li>
-</ul></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="medio-ambiente.html"><a href="medio-ambiente.html"><i class="fa fa-check"></i><b>2</b> Medio Ambiente</a>
-<ul>
-<li class="chapter" data-level="" data-path="medio-ambiente.html"><a href="medio-ambiente.html#chapters-and-sub-chapters"><i class="fa fa-check"></i>Chapters and sub-chapters</a></li>
-<li class="chapter" data-level="" data-path="medio-ambiente.html"><a href="medio-ambiente.html#captioned-figures-and-tables"><i class="fa fa-check"></i>Captioned figures and tables</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="movilidad.html"><a href="movilidad.html"><i class="fa fa-check"></i><b>3</b> Movilidad</a></li>
-<li class="chapter" data-level="4" data-path="planificación.html"><a href="planificación.html"><i class="fa fa-check"></i><b>4</b> Planificación</a>
-<ul>
-<li class="chapter" data-level="" data-path="planificación.html"><a href="planificación.html#footnotes"><i class="fa fa-check"></i>Footnotes</a></li>
-<li class="chapter" data-level="" data-path="planificación.html"><a href="planificación.html#citations"><i class="fa fa-check"></i>Citations</a></li>
-</ul></li>
-<li class="chapter" data-level="5" data-path="riesgos-y-emergencias.html"><a href="riesgos-y-emergencias.html"><i class="fa fa-check"></i><b>5</b> Riesgos y Emergencias</a>
-<ul>
-<li class="chapter" data-level="" data-path="riesgos-y-emergencias.html"><a href="riesgos-y-emergencias.html#equations"><i class="fa fa-check"></i>Equations</a></li>
-<li class="chapter" data-level="" data-path="riesgos-y-emergencias.html"><a href="riesgos-y-emergencias.html#theorems-and-proofs"><i class="fa fa-check"></i>Theorems and proofs</a></li>
-<li class="chapter" data-level="" data-path="riesgos-y-emergencias.html"><a href="riesgos-y-emergencias.html#callout-blocks"><i class="fa fa-check"></i>Callout blocks</a></li>
-</ul></li>
-<li class="chapter" data-level="6" data-path="seguridad.html"><a href="seguridad.html"><i class="fa fa-check"></i><b>6</b> Seguridad</a>
-<ul>
-<li class="chapter" data-level="" data-path="seguridad.html"><a href="seguridad.html#publishing"><i class="fa fa-check"></i>Publishing</a></li>
-<li class="chapter" data-level="" data-path="seguridad.html"><a href="seguridad.html#pages"><i class="fa fa-check"></i>404 pages</a></li>
-<li class="chapter" data-level="" data-path="seguridad.html"><a href="seguridad.html#metadata-for-sharing"><i class="fa fa-check"></i>Metadata for sharing</a></li>
-</ul></li>
-<li class="chapter" data-level="" data-path="glosario.html"><a href="glosario.html"><i class="fa fa-check"></i>Glosario</a>
-<ul>
-<li class="chapter" data-level="" data-path="glosario.html"><a href="glosario.html#glosario-del-diagnostico"><i class="fa fa-check"></i>Glosario del Diagnostico</a></li>
-</ul></li>
-<li class="divider"></li>
-<li><a href="https://github.com/emmaleah-shp/catalogo_book" target="blank">Published with bookdown</a></li>
-
-</ul>
-
-      </nav>
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">Catálogo DataMet</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
 
-    <div class="book-body">
-      <div class="body-inner">
-        <div class="book-header" role="navigation">
-          <h1>
-            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Catálogo DataMet</a>
-          </h1>
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="active" href="index.html">Descripción</a></li>
+<li><a class="" href="%C3%A1mbito-informaci%C3%B3n-base.html"><span class="header-section-number">1</span> Ámbito: Información Base</a></li>
+<li><a class="" href="%C3%A1mbito-medio-ambiente.html"><span class="header-section-number">2</span> Ámbito Medio Ambiente</a></li>
+<li><a class="" href="%C3%A1mbito-movilidad.html"><span class="header-section-number">3</span> Ámbito Movilidad</a></li>
+<li><a class="" href="%C3%A1mbito-planificaci%C3%B3n.html"><span class="header-section-number">4</span> Ámbito Planificación</a></li>
+<li><a class="" href="%C3%A1mbito-riesgos-y-emergencias.html"><span class="header-section-number">5</span> Ámbito Riesgos y Emergencias</a></li>
+<li><a class="" href="%C3%A1mbito-seguridad.html"><span class="header-section-number">6</span> Ámbito Seguridad</a></li>
+<li><a class="" href="glosario.html">Glosario</a></li>
+</ul>
+
+        <div class="book-extra">
+          
         </div>
-
-        <div class="page-wrapper" tabindex="-1" role="main">
-          <div class="page-inner">
-
-            <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Catálogo DataMet</h1>
-<p class="author"><em>OCUC</em></p>
-<p class="date"><em>2023-07-05</em></p>
+      </nav>
 </div>
-<div id="catálogo-datamet" class="section level1 unnumbered hasAnchor">
-<h1>Catálogo DataMet<a href="index.html#catálogo-datamet" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="descripción" class="section level2 unnumbered hasAnchor">
-<h2>Descripción<a href="index.html#descripción" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="descripción" class="section level1 unnumbered">
+<h1>Descripción<a class="anchor" aria-label="anchor" href="#descripci%C3%B3n"><i class="fas fa-link"></i></a>
+</h1>
 <p>Ante el objetivo de desarrollar una plataforma de datos interoperables para la toma de decisiones para la Región Metropolitana, el presente catálogo de datos se presenta como un primer acercamiento y sistematización de toda la información necesaria para conformar dicha plataforma.</p>
 <p>Este catálogo se construyó a partir de un marco normativo internacional y de gobernabilidad de los datos, tomando como punto de partida el marco institucional nacional. Así, la elaboración de un catastro de información espacial y no espacial, homologado a través de una serie de mecanismos (como por ejemplo los escenarios creados conjuntamente con el Gobierno Regional para definir la utilidad de los datos), permitió la consolidación de un catálogo de datos interoperables.</p>
 <p>El desarrollo de un Catálogo de Datos se basa en estándares que permitan catastrar los datos espaciales y no espaciales, como también, conocer sus alcances y el estado de la información, de forma de que estos puedan ser consultados por distintas instituciones y actores, y así, asegurar su interoperabilidad.</p>
 <p>Por medio de la <strong><code>Norma ISO 19.110</code></strong> se define una metodología para catalogar Objetos Geográficos. Los elementos que componen un catálogo de features presentan una organización que conlleva características de orden y jerarquía, como se presenta en la siguiente Figura.</p>
-<div id="render-book" class="section level3 unnumbered hasAnchor">
-<h3>Render book<a href="index.html#render-book" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># bookdown::render_book()</span></span>
-<span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># bookdown::serve_book()</span></span></code></pre></div>
+<p><strong>Render book</strong></p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="co"># bookdown::render_book()</span></span>
+<span><span class="co"># bookdown::serve_book()</span></span></code></pre></div>
 
 </div>
-</div>
-</div>
-            </section>
+  <div class="chapter-nav">
+<div class="empty"></div>
+<div class="next"><a href="%C3%A1mbito-informaci%C3%B3n-base.html"><span class="header-section-number">1</span> Ámbito: Información Base</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav"><li><a class="nav-link" href="#descripci%C3%B3n">Descripción</a></li></ul>
 
-          </div>
-        </div>
-      </div>
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
 
-<a href="información-base.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
-    </div>
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Catálogo DataMet</strong>" was written by . </p>
   </div>
-<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
-<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
-<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
-<script>
-gitbook.require(["gitbook"], function(gitbook) {
-gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": null,
-"text": null
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["catalogo_book.pdf", "catalogo_book.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
-});
-});
-</script>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
@@ -300,7 +117,22 @@ gitbook.start({
     script.src = src;
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
 </script>
 </body>
-
 </html>

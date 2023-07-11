@@ -1,26 +1,33 @@
-bookdown::gitbook:
-  # theme:
-  #   primary: "#3860b6" #links  
-  #   base_font: 
-  #     google: 
-  #       family: Lato
-  #   heading_font:
-  #     google:
-  #       family: Montserrat
-  #       wght: 600
-  #   code_font:
-  #     google: 
-  #       family: Roboto Mono
-  #   bg: "#fefefe" #backgrounds
-  #   fg: "#000000" #fonts
-  css: style.css
+bookdown::bs4_book:
+  theme:
+    primary: "#3860b6" #links
+    base_font:
+      google:
+        family: Lato
+    heading_font:
+      google:
+        family: Montserrat
+        wght: 600
+    code_font:
+      google:
+        family: Roboto Mono
+    bg: "#fefefe" #backgrounds
+    fg: "#000000" #fonts
+  css: style/style.css
   config:
     toc:
+      collapse: section
+      scroll_highlight: true
       before: |
-        <li><a href="./">Catálogo</a></li>
+        <li><a href="./">Catálogo DataMet</a></li>
       after: |
         <li><a href="https://github.com/emmaleah-shp/catalogo_book" target="blank">Published with bookdown</a></li>
+    toolbar:
+      position: fixed
     download: ["pdf", "epub"]
+    search:
+      engine: lunr
+    info: true
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -28,7 +35,6 @@ bookdown::pdf_book:
   citation_package: natbib
   keep_tex: yes
 bookdown::epub_book: default
-bookdown::bs4_book: default
 
 repo: 
   base: https://github.com/emmaleah-shp/catalogo_book
